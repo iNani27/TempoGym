@@ -76,6 +76,18 @@ section#calendar{
 section#calendar em{
     color: grey;
 }
+section h1{
+    font-size: 1.5em;
+}
+section article h1{
+    font-size: 1.4em;
+}
+section article h2{
+    font-size: 1.3em;
+}
+section{
+    margin: .9em;
+}
 footer{
     /*clear: both;*/
     height: 20%;
