@@ -6,6 +6,252 @@ include_once 'head.php';
     <article>
         <h1>Rotations</h1>
         <h2>Mercredi</h2>
+        <table id="rotation">
+            <caption>Rotation des mercredis</caption>
+            <thead>
+                <tr>
+                    <th rowspan="5">SAISON<br />2014-2015</th>
+                    <th colspan="3">03/09</th>
+                    <th colspan="3">10/09</th>
+                    <th colspan="3">17/09</th>
+                    <th colspan="3">24/09</th>
+                    <th colspan="3">01/10</th>
+                    <th colspan="3">08/10</th>
+                    <th colspan="3">15/10</th>
+                </tr>
+                <tr>
+
+                    <th colspan="3">22/10</th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                </tr>
+                <tr>
+
+                    <th colspan="3">17/12</th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                </tr>
+                <tr>
+
+                    <th colspan="3">25/02</th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                </tr>
+                <tr>
+
+                    <th colspan="3">29/04</th>
+                    <th colspan="3"></th>
+
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                    <th colspan="3"></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th>Virginie</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Caroline</th>
+                   <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                                <tr>
+                    <th>Stéphane</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                                <tr>
+                    <th>Patrice</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                                <tr>
+                    <th>Jonathan</th>
+                   <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                                <tr>
+                    <th>Caliopi</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                                <tr>
+                    <th>Libre</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+
+             <tfoot>
+                <tr><th colspan="22">15h00 - 15h20 : Placement du matériel</th></tr>
+                <tr><th colspan="22">15h20 - 15h50 : Echauffement général</th></tr>
+                <tr><th colspan="22">
+                        15h50 - 16h25 : 1er rotation</th></tr>
+                <tr><th colspan="22">
+                        16h25 - 17h00 : 2ème rotation</th></tr>
+                <tr><th colspan="22">
+                        17h00 – 17h35 : 3ème rotation</th></tr>
+                <tr><th colspan="22">
+                        17h35 – 17h45 : étirement </th></tr>
+                <tr><th colspan="22">
+                        17h45 - 18h00 : Rangement du matériel</th></tr>
+            </tfoot>
+        </table>
+
+          
+           
+        </table>
         <pre>
 SAISON 
  2014-2015	03/09	10/09	17/09	24/09	01/10	08/10	15/10
@@ -21,16 +267,11 @@ Jonathan	□p	Esp	─	MT	□	//	↷	□p	Esp	─	MT	□	//	↷	□p	Esp	─	MT	�
 Caliopi 	↷	□p	Esp	─	MT	□	//	↷	□p	Esp	─	MT	□	//	↷	□p	Esp	─	MT	□	//
 Libre 	//	↷	□p	Esp	─	MT	□	//	↷	□p	Esp	─	MT	□	//	↷	□p	Esp	─	MT	□
 
-15h00 - 15h20 : Placement du matériel
-15h20 - 15h50 : Echauffement général
-15h50 - 16h25 : 1er rotation
-16h25 - 17h00 : 2ème rotation
-17h00 – 17h35 : 3ème rotation
-17h35 – 17h45 : étirement 
-17h45 - 18h00 : Rangement du matériel
-   
 
+   
         </pre>
+
+
         <h2>Vendredi</h2>
         <pre>
 SAISON 

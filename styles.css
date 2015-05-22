@@ -1,11 +1,12 @@
 /*
-CSS responsive n°1 - version black
+CSS responsive n°1 - version dark
 Ideal resolution: 1280 * 960 pixels
 */
 /* 
     Created on : 12-mai-2015, 14:54:38
     Author     : INani 
 */
+/* GENERAL */
 body{
     margin:0;
     padding:0;
@@ -98,4 +99,13 @@ footer{
 footer p{
     margin: 0 .65em;
     text-align: right;
+}
+
+/* ROTATIONS */
+table#rotation{width: 100%;}
+table#rotation, table#rotation tr, table#rotation tr th, table#rotation tr td{
+    border: 1px solid white;
+}
+table#rotation tfoot td{
+    text-align:center;
 }
