@@ -89,7 +89,7 @@ include_once 'head.php';
                 </tr>
                 <tr>
                     <th>Caroline</th>
-                   <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -111,7 +111,7 @@ include_once 'head.php';
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
-                                <tr>
+                <tr>
                     <th>Stéphane</th>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -135,7 +135,7 @@ include_once 'head.php';
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
-                                <tr>
+                <tr>
                     <th>Patrice</th>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -159,9 +159,9 @@ include_once 'head.php';
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
-                                <tr>
+                <tr>
                     <th>Jonathan</th>
-                   <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -183,7 +183,7 @@ include_once 'head.php';
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
-                                <tr>
+                <tr>
                     <th>Caliopi</th>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -207,7 +207,7 @@ include_once 'head.php';
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
-                                <tr>
+                <tr>
                     <th>Libre</th>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -233,28 +233,28 @@ include_once 'head.php';
                 </tr>
             </tbody>
 
-             <tfoot>
+            <tfoot>
                 <tr><th rowspan="7" colspan="22">15h00 - 15h20 : Placement du matériel
-				<br />
-				15h20 - 15h50 : Echauffement général
-				<br />
-				15h50 - 16h25 : 1er rotation
-				<br />
-				16h25 - 17h00 : 2ème rotation
-				<br />
-				17h00 – 17h35 : 3ème rotation
-				<br />
-				17h35 – 17h45 : étirement 
-				<br />
-				17h45 - 18h00 : Rangement du matériel
-				
-				</th></tr>
-                
+                        <br />
+                        15h20 - 15h50 : Echauffement général
+                        <br />
+                        15h50 - 16h25 : 1er rotation
+                        <br />
+                        16h25 - 17h00 : 2ème rotation
+                        <br />
+                        17h00 – 17h35 : 3ème rotation
+                        <br />
+                        17h35 – 17h45 : étirement 
+                        <br />
+                        17h45 - 18h00 : Rangement du matériel
+
+                    </th></tr>
+
             </tfoot>
         </table>
 
-          
-           
+
+
         </table>
         <pre>
 SAISON 
