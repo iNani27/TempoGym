@@ -1,9 +1,15 @@
 /*
-CSS responsive n°1 - version dark
-Ideal resolution: 1280 * 960 pixels
+CSS responsive n°2 - version light
+
+Tailles d'écran
+---------------
+'Ideal resolution: 1280 * 960 pixels
+Tablette : 935px
+IPhone: 
 */
 /* 
     Created on : 12-mai-2015, 14:54:38
+	Updated on : 25-mai-2015, 20:40:00
     Author     : INani 
 */
 /* GENERAL */
@@ -15,23 +21,33 @@ body{
     min-height: 100%;
 }
 #container{
-    background-color: lightslategrey;
-    color: lightcyan;
+    background-color: #FFFFFF; /*lightslategrey;*/
+    color: #848484;
     font-size:1em;
     width:80%;
     height:auto;
-    margin: 0px auto
+    margin: 0px auto;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border: 1px solid #858585;
 }
+#content{
+	/*border-left:.01em solid #313035;
+	border-right:.01em solid #313035;*/
+}
+
 header{
-    border: .3em solid lightcyan;
-    background-color: #CEF6F5;
-    width:99.5%;
-    height: 20%;
-    color: aquamarine;
+    border-bottom:1px solid #858585;
+    background-color: #FFFFFF; /*#CEF6F5;*/
+    width:100%; /*99.5%;*/
+    height:20%;
+    color: #848484;
 }
 header img{
-    border: 1px solid orange;
-    margin:.3em 0 .3em .3em;
+    /*border: 1px solid orange;
+    margin:.3em 0 .3em .3em;*/
+}
+header .logo, header .banner{
+	width: 49%; 
 }
 header h1{
     font-size: 1.7em;
@@ -39,6 +55,9 @@ header h1{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin-right: 1em;
 }
+
+/* MENU cf nav.css*/
+/*
 nav ul{
     list-style-type: none;
     display: block;
@@ -51,8 +70,12 @@ nav ul li a{
     display: inline-block;
     padding: .625em;
     text-decoration: none;
-    color: aquamarine;
+    color: #848484;
 }
+*/
+
+/* INFOMATIONS IMPORTANTES */
+
 section#news {
     padding-bottom: 11em;
 }
@@ -61,22 +84,27 @@ section#news article{
     height: auto;
     min-height: 110px;
     max-height: 200px;
-    margin: .5em;
+    margin: .5em 1em .5em 0;
     padding: .5em;
-    border: .1em solid aquamarine;
+    border: 1px solid #858585;
     float:left;
 }
+section#news article.right{
+    margin: .5em 0 .5em 1em;
+    float:right;
+}
 section#calendar{
-    width: 350px;
-    height: 200px;
-    background-color: #E0FFFF;
+    /*background-color: #E0FFFF;*/
     clear: both;
-    margin: 1em auto;
-    border: .2em solid lightseagreen;
 }
-section#calendar em{
+section#calendar img{
+	margin: 0 auto;
+    border: 1px solid #858585;
+	width:99.8%;
+}
+/*section#calendar em{
     color: grey;
-}
+}*/
 section h1{
     font-size: 1.5em;
 }
@@ -89,22 +117,31 @@ section article h2{
 section{
     margin: .9em;
 }
+
+/* FOOTER */
 footer{
     /*clear: both;*/
     height: 20%;
-    background-color: #6699A6;
+    background-color: #858585; /* #313035; /*#6699A6;*/
     padding: 0.5em;
     width: auto;   
 }
 footer p{
     margin: 0 .65em;
     text-align: right;
+	color: #FFFFFF;
+}
+footer p a{
+	color: #E1E1E1;
+}
+footer p a:hover{
+	color: #000000;
 }
 
 /* ROTATIONS */
 table#rotation{width: 100%;}
 table#rotation, table#rotation tr, table#rotation tr th, table#rotation tr td{
-    border: 1px solid white;
+    border: 1px solid #858585; /*white;*/
 }
 table#rotation tfoot td{
     text-align:center;
