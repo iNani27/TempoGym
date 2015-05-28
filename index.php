@@ -9,7 +9,7 @@ include_once 'head.php';
         </p>
     </article>
     <article class="right">
-        <h1>Compétion ce 5 juin 2015</h1>
+        <h1>Flash Info</h1>
         <p>Sed sed viverra mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae: Aliquam id amet consectetur adipiscing elit. Cras tempus sagittis libero sit amet pretium.</p>
     </article>
 </section>
