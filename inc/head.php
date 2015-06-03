@@ -24,10 +24,11 @@ Club Tempogym Jette
                     <li><a href="index.php">Accueil</a></li>
                     <li><a href="club.php">Le club</a></li>
                     <li><a href="dates.php">Dates</a></li>
-                    <li><a href="culture.php">Culture</a></li>
+                   
                     <li><a href="galerie.php">Galerie</a></li>
-                    <li><a href="contact.php">Documents</a></li>
-                    <li><a href="connect.php">Se connecter</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                     <li><a href="docs.php">Documents</a></li>
+                    <li><a href="ia/admin.php">Administrer</a></li>
                 </ul>
 				<!-- Option menu small device ::: Responsiveness -->
 				<select onchange="top.location.href = this.options[this.selectedIndex].value;">
@@ -38,7 +39,7 @@ Club Tempogym Jette
 					<option value="galerie.php">Galerie</option>
 					<option value="contact.php">Contact</option>
 					<option value="docs.php">Documents</option>
-					<option value="connect.php">Se connecter</option>
+					<option value="ia/admin.php">Administrer</option>
 				</select>
             </nav>
         </header>    

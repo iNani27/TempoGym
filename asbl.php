@@ -1,12 +1,14 @@
 <?php
-include_once 'head.php';
+include_once 'inc/head.php';
 ?>
-<section id="about">
-    <h1>À propos de nous</h1>
-   
-    <article>
-        <h1>Le comité administratif de l'ASBL</h1>
-        <pre>
+<section id="main">		
+    <h1>Bienvenue sur le site de Tempogym de Jette</h1>
+    <section id="about">
+        <h1>À propos de nous</h1>
+
+        <article>
+            <h1>Le comité administratif de l'ASBL</h1>
+            <pre>
             
 Président
 Stéphane Etienne
@@ -33,14 +35,14 @@ Gsm : 0496/70.66.64
 e-mail : tempogymjette@hotmail.com
 Gsm club : 0473/17.34.14
 
-        </pre>
-    </article>
+            </pre>
+        </article>
+    </section>
+
+    <?php
+    include_once 'inc/footer.php';
+    ?>
+
 </section>
-
-<?php
-include_once 'footer.php';
-?>
-
-</div>
 </body>
 </html>

@@ -12,4 +12,3 @@ if(ini_get("session.use_cookies")){
 session_destroy();
 // redirection vers la racine du dossier
 header("Location: galerie.php");
-?>
