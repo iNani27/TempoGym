@@ -1,6 +1,8 @@
 <?php
-include_once 'head.php';
+include_once 'inc/head.php';
 ?>
+<section id="main">		
+    <h1>Bienvenue sur le site de Tempogym de Jette</h1>
 <section id="about">
     <h1>À propos de nous</h1>
     <article>
@@ -20,9 +22,9 @@ include_once 'head.php';
 </section>
 
 <?php
-include_once 'footer.php';
+include_once 'inc/footer.php';
 ?>
 
-</div>
+</section>
 </body>
 </html>
