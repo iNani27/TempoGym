@@ -37,7 +37,7 @@ if (isset($_POST['lelogin']) && isset($_POST['lemdp'])) {
 include_once 'inc/head.php';
 ?>
      <section id="main">		
-		<h1>Bienvenue sur le site de Tempogym de Jette</h1>
+		<h1>Tempogym Jette</h1>
 			<section id="galery">
 				<article>
 					<h2>Galerie</h2>

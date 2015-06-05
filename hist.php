@@ -2,11 +2,10 @@
 include_once 'inc/head.php';
 ?>
 <section id="main">		
-    <h1>Bienvenue sur le site de Tempogym de Jette</h1>
+    <h1>Tempogym Jette</h1>
     <section id="about">
-        <h1>À propos de nous</h1>
         <article>
-            <h1>Histoire et philosophie</h1>
+            <h2>Histoire et philosophie</h2>
             <p>
                 La gymnastique, sport pour lequel nos prédécesseurs à la tête du club et nous-mêmes nous investissons depuis 1923, constitue une voie royale pour le développement psychomoteur.
             </p>

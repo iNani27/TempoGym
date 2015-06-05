@@ -2,67 +2,66 @@
 include_once 'inc/head.php';
 ?>
 <section id="main">		
-    <h1>Bienvenue sur le site de Tempogym de Jette</h1>
-<section id="about">
-    <h1>Dates</h1>
-    <article>
+    <h1>Tempogym Jette</h1>
+    <section id="dates">
+        <article>
 
-        <h1>Mercredi</h1>
-        <table id="rotation">
-            <caption>Les dates des mercredis</caption>
-            <thead>
-                <tr>
-                    <th rowspan="5">SAISON<br />2014-2015</th>
-                    <th colspan="3">03/09</th>
-                    <th colspan="3">10/09</th>
-                    <th colspan="3">17/09</th>
-                    <th colspan="3">24/09</th>
-                    <th colspan="3">01/10</th>
-                    <th colspan="3">08/10</th>
-                    <th colspan="3">15/10</th>
-                </tr>
-                <tr>
+            <h2>Mercredi</h2>
+            <table id="rotation">
+                <caption>Les dates des mercredis</caption>
+                <thead>
+                    <tr>
+                        <th rowspan="5">SAISON<br />2014-2015</th>
+                        <th colspan="3">03/09</th>
+                        <th colspan="3">10/09</th>
+                        <th colspan="3">17/09</th>
+                        <th colspan="3">24/09</th>
+                        <th colspan="3">01/10</th>
+                        <th colspan="3">08/10</th>
+                        <th colspan="3">15/10</th>
+                    </tr>
+                    <tr>
 
-                    <th colspan="3">22/10</th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                </tr>
-                <tr>
+                        <th colspan="3">22/10</th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                    </tr>
+                    <tr>
 
-                    <th colspan="3">17/12</th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                </tr>
-                <tr>
+                        <th colspan="3">17/12</th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                    </tr>
+                    <tr>
 
-                    <th colspan="3">25/02</th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                </tr>
-                <tr>
+                        <th colspan="3">25/02</th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                    </tr>
+                    <tr>
 
-                    <th colspan="3">29/04</th>
-                    <th colspan="3"></th>
+                        <th colspan="3">29/04</th>
+                        <th colspan="3"></th>
 
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                </tr>
-            </thead>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                    </tr>
+                </thead>
 
             <!--<tbody>
                 <tr>
@@ -253,12 +252,12 @@ include_once 'inc/head.php';
                     </th></tr>
 
             </tfoot>-->
-        </table>
+            </table>
 
 
 
 
-        <pre>
+            <pre>
 SAISON 
  2014-2015	03/09	10/09	17/09	24/09	01/10	08/10	15/10
 	22/10	05/11	12/11	19/11	26/11	03/12	10/12
@@ -267,68 +266,68 @@ SAISON
 	29/04	06/05	13/05	20/05	27/05	03/06	-
 
    
-        </pre>
+            </pre>
 
-    </article>
-    <article>
-        <h1>Vendredi</h1>
-        <table id="rotation">
-            <caption>Les dates des vendredis</caption>
-            <thead>
-                <tr>
-                    <th rowspan="5">SAISON<br />2014-2015</th>
-                    <th colspan="3">03/09</th>
-                    <th colspan="3">10/09</th>
-                    <th colspan="3">17/09</th>
-                    <th colspan="3">24/09</th>
-                    <th colspan="3">01/10</th>
-                    <th colspan="3">08/10</th>
-                    <th colspan="3">15/10</th>
-                </tr>
-                <tr>
+        </article>
+        <article>
+            <h2>Vendredi</h2>
+            <table id="rotation">
+                <caption>Les dates des vendredis</caption>
+                <thead>
+                    <tr>
+                        <th rowspan="5">SAISON<br />2014-2015</th>
+                        <th colspan="3">03/09</th>
+                        <th colspan="3">10/09</th>
+                        <th colspan="3">17/09</th>
+                        <th colspan="3">24/09</th>
+                        <th colspan="3">01/10</th>
+                        <th colspan="3">08/10</th>
+                        <th colspan="3">15/10</th>
+                    </tr>
+                    <tr>
 
-                    <th colspan="3">22/10</th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                </tr>
-                <tr>
+                        <th colspan="3">22/10</th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                    </tr>
+                    <tr>
 
-                    <th colspan="3">17/12</th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                </tr>
-                <tr>
+                        <th colspan="3">17/12</th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                    </tr>
+                    <tr>
 
-                    <th colspan="3">25/02</th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                </tr>
-                <tr>
+                        <th colspan="3">25/02</th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                    </tr>
+                    <tr>
 
-                    <th colspan="3">29/04</th>
-                    <th colspan="3"></th>
+                        <th colspan="3">29/04</th>
+                        <th colspan="3"></th>
 
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                    <th colspan="3"></th>
-                </tr>
-            </thead>
-        </table>
-        <pre>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                        <th colspan="3"></th>
+                    </tr>
+                </thead>
+            </table>
+            <pre>
 SAISON 
  2014-2015	05/09	12/09	19/09	26/09	03/10	10/10	17/10	24/10	
 	07/11	14/11	21/11	28/11	05/12	12/12	19/12	09/01	
@@ -336,17 +335,17 @@ SAISON
 	20/03	27/03	24/04	08/05	22/05	29/05	05/06	12/06	
 	19/06	-	-	-	-	-	-	-	
 
-        </pre>
-    </article>
-    <article>
-        <h1>Calendrier des dimanches</h1>
-        <img src="docs/calendier_dimanche_2015.jpg" alt="Calendrier des dimanches"/>
-    </article>
-</section>
+            </pre>
+        </article>
+        <article>
+            <h2>Calendrier des dimanches</h2>
+            <p class="dim"><a href="docs/calendier_dimanche_2015.pdf" title="Calendrier des dimanches"><img class="dim" src="docs/calendier_dimanche_2015.jpg" alt="Calendrier des dimanches"/></a></p>
+        </article>
+    </section>
 
-<?php
-include_once 'inc/footer.php';
-?>
+    <?php
+    include_once 'inc/footer.php';
+    ?>
 </section>
 </body>
 </html>
