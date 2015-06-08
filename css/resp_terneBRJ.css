@@ -8,16 +8,13 @@
 
 /* 
 colors:
-#C96660 rouge; #FE6B6B
-#BBC6CA bleu clair
-#A7D4DA bleu peps (turquoise)
-#7094AC bleu pluie d'été; #4B7EA7
-#31657A bleu foncé emeraude 
-#528191 bleu moyen emeraude 
-#EAE3D9 sable blanc 
-#F3F3E9 blanc perle
-footer bleu : #72BBE8
-jaune: #FDF465
+bleu trempo foncé : 405074 
+bleu sol - : CEE0F5 AEC9EC   ABC2D1
+bleu sol + : 406BB6  8F9D9E 
+bleu h3 : 95B0CF
+
+jaune: FECC3E FCCD02 #FCE084 #CB9321 
+rouge: F8513C #C93F2F #C34936 
 */
 
 /* ss Sections
@@ -76,18 +73,17 @@ header nav ul li a{
     color: #406BB6;
 }
 header nav ul li a:hover{
-    background-color: #7094AC;
+    background-color: #406BB6;
     color: white;
 }
 /* SECTION MAIN */
 #main section{
     width: 100%; /*955px;*/
-    background-color: white; /*#CEE0F5;
+    background-color: #CEE0F5;
     padding: 0 0 .938em 0; /*5px 0 15px 0;*/
-    border: 1px solid #7CB2D3;
 }
 #main h1{
-    background-color: #4B7EA7;
+    background-color: #406BB6;
     color: white;
     margin:0;
     font-size:1.500em; /*24px;*/
@@ -113,11 +109,11 @@ header nav ul li a:hover{
 #docs article
 {
     margin:0 .5em .5em .5em;
-    border: 1px solid #F8BB61; /* jaune */
+    border: 1px solid #FECC3E; /* jaune */
 }
 #news article.right{
     margin:.5em;
-    border: 1px solid #FE6B6B; /* rouge */
+    border: 1px solid #F8513C; /* rouge */
 }
 #news article h2, 
 #about article h2, 
@@ -125,7 +121,7 @@ header nav ul li a:hover{
 #galery article h2, 
 #contact article h2, 
 #docs article h2{
-    background-color: #F8BB61; /* jaune */ 
+    background-color: #FECC3E; /* jaune */ 
     color: white;
     font-size:1.125em; /*18px;*/
     text-align: center;
@@ -139,11 +135,11 @@ header nav ul li a:hover{
     color: white;
     font-size:.938em;
     text-align: center;
-    margin:0;
+    margin:0 .5em;
     padding:.5em 0;
 }
 #news article.right h2{
-    background-color: #FE6B6B; /* rouge */
+    background-color: #F8513C; /* rouge */
 }
 
 #news article p,
@@ -192,20 +188,8 @@ header nav ul li a:hover{
 #dates p.dim{
     text-align:center;
 }
-/* -> temp */
-pre{
-    margin:3em 7em;
-    border: 1px solid black;
-}
-/* <- temp */
 
 /* SS SECTION DOCS */
-#docs img.word{
-    width:80%;
-}
-#docs p.word{
-    text-align:center;
-}
 #docs img.w_ico{
     width:3%;
 }
@@ -280,7 +264,7 @@ input[type="submit"]:hover{
 
 /* FOOTER */
 footer{
-    background-color: #7CB2D3; /*#72BBE8; */
+    background-color: #A8BFEA;
     text-align:center;
     padding:.2em;
 }
@@ -331,7 +315,7 @@ footer p{
     header nav ul li {
         width:95%;
         border: 1px solid white;
-        background-color: #4B7EA7;
+        background-color: #406BB6;
     }
     header nav ul li a{
         display:block;
@@ -374,14 +358,11 @@ footer p{
     footer img.sponsor{
         max-height:50px;
     }
-    #dates img.dim, #docs img.word{
+    #dates img.dim{
         width:85%;
     }
     #docs img.w_ico{
         width:4%;
-    }
-    #docs table.tenue_resp{
-        display:none;
     }
 }
 
@@ -396,9 +377,6 @@ footer p{
     header nav select{
         clear:left;
     }
-    #main h1{
-        display:none;
-    }
     #liens{
         display:none;
     }
@@ -408,7 +386,7 @@ footer p{
     #calendar{
         display:none;
     }
-    #dates img.dim, #docs img.word{
+    #dates img.dim{
         width:100%;
     }
     #docs img.w_ico{
@@ -419,18 +397,13 @@ footer p{
     }
     #docs table.tenue_resp{
         display:block;
+
     }
     #docs table.tenue_resp th, #docs table.tenue_resp td{
         border:1px solid #FECC3E;
     }
     #docs table.tenue_resp th{
         text-align:left;
-    }
-    #contact p {
-        margin: 2px 0;
-    }
-    #contact span.none{
-        display:none;
     }
 }
 

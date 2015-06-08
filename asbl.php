@@ -27,7 +27,7 @@ include_once 'inc/head.php';
             <h3>Coordinateur</h3>
             <p>Jonathan Nani</p>
             <p>Gsm : 0496/70.66.64</p>
-            
+
             <h3>Le club Tempogym Jette</h3>
             <p>e-mail : tempogymjette@hotmail.com</p>
             <p>Gsm club : 0473/17.34.14</p>

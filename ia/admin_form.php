@@ -1,16 +1,17 @@
 <?php
-$table='tgj_galery';
-$destination = 'media.php';
-include_once 'ia/inc/log.php';
+$table='tgj_admin';
+$destination = 'admin.php';
+include_once 'inc/log.php';
+
 include_once 'inc/head.php';
 ?>
 <section id="main">		
-    <h1>Tempogym Jette</h1>
+    <h1>Administration | Tempogym Jette</h1>
     <section id="galery">
         <article>
-            <h2>Galerie</h2>
+            <h2>Administrer</h2>
             <p>
-                Connectez-vous pour visualiser les photographies et les vidéos du club
+                Connectez-vous pour mettre à jour les contenus du site
 
             </p>
             <form action="" method="POST" id="connexion" name="connexion">
@@ -25,7 +26,7 @@ include_once 'inc/head.php';
             </form>
         </article>
         <?php
-        include_once 'inc/footer.php';
+        include_once '../inc/footer.php';
         ?>
     </section> 
 </body>

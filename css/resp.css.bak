@@ -192,12 +192,12 @@ header nav ul li a:hover{
 #dates p.dim{
     text-align:center;
 }
-/* -> temp */
+/* => temp */
 pre{
-    margin:3em 7em;
-    border: 1px solid black;
+	margin:3em 7em;
+	border: 1px solid black;
 }
-/* <- temp */
+/* <= temp */
 
 /* SS SECTION DOCS */
 #docs img.word{
@@ -380,7 +380,7 @@ footer p{
     #docs img.w_ico{
         width:4%;
     }
-    #docs table.tenue_resp{
+	#docs table.tenue_resp{
         display:none;
     }
 }
@@ -396,9 +396,9 @@ footer p{
     header nav select{
         clear:left;
     }
-    #main h1{
-        display:none;
-    }
+	#main h1{
+		display:none;
+	}
     #liens{
         display:none;
     }
@@ -426,12 +426,12 @@ footer p{
     #docs table.tenue_resp th{
         text-align:left;
     }
-    #contact p {
-        margin: 2px 0;
-    }
-    #contact span.none{
-        display:none;
-    }
+	#contact p {
+		margin: 2px 0;
+	}
+	#contact span.none{
+		display:none;
+	}
 }
 
 
