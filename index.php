@@ -8,7 +8,7 @@ include_once 'inc/head.php';
 
         <article>
             <h2>Informations importantes</h2>
-            <p>
+            <p> 
                 Suspendisse at consectetur turpis. Cras tempus sagittis libero sit amet pretium. Etiam tincidunt ex non auctor dictum. Sed sed viverra mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             </p>
         </article>
