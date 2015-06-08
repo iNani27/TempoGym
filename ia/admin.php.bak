@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 include_once 'inc/head.php';
 ?>
 <section id="main">		
-    <h1>Bienvenue sur le site de Tempogym de Jette</h1>
+    <h1>Bienvenue, Ch&egrave;re administratrice du site de Tempogym</h1>
 
     <section id="news">
 
@@ -22,9 +22,9 @@ include_once 'inc/head.php';
 
 
     <?php
-    include_once 'inc/agenda.php';
-    include_once 'inc/nav_qklk.php';
-    include_once 'inc/footer.php';
+	include_once '../inc/agenda.php';
+	include_once '../inc/nav_qklk.php';
+    include_once '../inc/footer.php';
     ?>
 </section> 
 </body>

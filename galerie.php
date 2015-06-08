@@ -15,8 +15,6 @@ include_once 'inc/head.php';
                     <button class="adminmedia" type="button">Connexion</button>
                 </a>
             </p>
-
-
         </article>
         <?php
         include_once 'inc/footer.php';
