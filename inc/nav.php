@@ -11,11 +11,11 @@
             <ul>
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="club.php">Le club</a>
-                    <ul class="sous_menu">
+                    <!--<ul class="sous_menu">
                         <li><a href="hist.php">Histoire et philosophie</a>
                         <li><a href="asbl.php">Le comit&eacute;</a>
                             
-                    </ul>
+                    </ul>-->
                 </li>
                 <li><a href="dates.php">Dates</a></li>
 
