@@ -1,0 +1,36 @@
+/* MENU */
+header nav{
+    display:block;
+}
+header nav ul{
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    width: 100%; /*955px;*/
+    height:1.875em; /*30px;*/
+    background-color: #ccc;
+}
+header nav ul li{
+    display:inline-block;
+    height: 1.875em; /*30px;*/
+    line-height: 1.875em; /*30px;*/
+    width:13%; /* 132px; */
+    font-weight: bolder;
+    background-color: #ccc;
+}
+header nav ul li a{
+    display:block;
+    text-decoration: none;
+    margin:0 auto;
+    max-width:99%; /* 132px; */
+    text-align:center;
+    line-height:1.875em; /*30px;*/
+    height:1.875em; /*30px;*/
+    font-family: Arial;
+    color: #406BB6;
+}
+header nav ul li a:hover{
+    background-color: #7094AC;
+    color: white;
+}
+
