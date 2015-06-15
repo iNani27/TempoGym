@@ -50,8 +50,11 @@ body{
     color: #202D44;
 }
 /* DATES : TABLES */
-#docs table.tenue th, #docs table.tenue td{
+#docs table.tenue th, #docs table.tenue td, #docs table.cotisation, #docs table.cotisation td, #docs table.cotisation th, #dates table.lieux th, #dates table.lieux td{
     border:1px solid #FECC3E;
+}
+#dates table.lieux td.grey{
+    background-color:lightsteelblue;
 }
 /* FOOTER */
 footer{

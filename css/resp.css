@@ -209,16 +209,19 @@ pre{
 #docs img.w_ico{
     width:3%;
 }
-#docs table.tenue{
+#docs table.tenue,#docs table.cotisation, #dates table.lieux{
     width: 100%;
 }
-#docs table.tenue th{
+#docs table.tenue th, #docs table.cotisation td{
     width: 24%;
+}
+#dates table.lieux th{
+    width: 32%;
 }
 /*#docs table.tenue th, #docs table.tenue td{
     border:1px solid #FECC3E;
 }*/
-#docs table.tenue td{
+#docs table.tenue td, #docs table.cotisation td, #dates table.lieux td{
     text-align:center;
 }
 
@@ -429,7 +432,7 @@ footer p{
     #contact p {
         margin: 2px 0;
     }
-    #contact span.none{
+    #contact span.none, #docs span.none{
         display:none;
     }
 }
