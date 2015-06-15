@@ -6,30 +6,31 @@ if (!isset($_SESSION['id_session']) || $_SESSION['id_session'] != session_id()) 
 }
 require_once 'tgj_edit.php';
 include_once 'inc/head.php';
-
 ?>
 <section id="main">
-    
+
     <h1>Bienvenue "<?= $_SESSION['lelogin']; ?>" vous êtes connecté en tant qu'administrateur </h1>
-    
+
     <section id="news">
         <article>
             <?php
             while ($ligne = mysqli_fetch_assoc($req)) {
                 echo "<h2>" . $ligne['letitre'] . "</h2>";
                 echo "<p>" . $ligne['letexte'] . "</p>";
+                echo "<a href='modif.php?id=" . $ligne['id'] . "'><input type='button' value='Modifier' /></a>";
             }
             ?>
-            <a href='modif.php?id="<?=$ligne['id'] ?>"'><input type="button" value="Modifier" /></a>
+
         </article>
         <article class="right">
             <?php
             while ($ligne = mysqli_fetch_assoc($req2)) {
                 echo "<h2>" . $ligne['letitre'] . "</h2>";
                 echo "<p>" . $ligne['letexte'] . "</p>";
+                echo "<a href='modif.php?id=" . $ligne['id'] . "'><input type='button' value='Modifier' /></a>";
             }
             ?>  
-            <input type="button" value="Modifier" />
+            
         </article>   
     </section>
     <?php
