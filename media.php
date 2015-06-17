@@ -4,9 +4,9 @@ session_start();
 if (!isset($_SESSION['id_session']) || $_SESSION['id_session'] != session_id()) {
     header("Location: deconnect.php");
 }
-include_once 'meta.php';
-include_once 'fotorama.php';
-include_once 'nav.php';
+include_once 'inc/meta.php';
+include_once 'inc/fotorama.php';
+include_once 'inc/nav.php';
 ?>
 <section id="main">		
     <h1>Tempogym Jette</h1>

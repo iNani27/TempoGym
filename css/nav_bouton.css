@@ -8,9 +8,7 @@ header nav ul{
     margin: 0;
     width: 100%; /*955px;*/
     height:1.875em; /*30px;*/
-   background-color:#1f90ff ;
-  
-
+    background-color:#1f90ff;
 }
 header nav ul li{
     display:inline-block;
@@ -18,7 +16,7 @@ header nav ul li{
     line-height: 1.875em; /*30px;*/
     width:13%; /* 132px; */
     font-weight: bolder;
-   background-color:#1f90ff ;
+    background-color:#1f90ff;
 }
 header nav ul li a{
     display:block;
@@ -30,10 +28,9 @@ header nav ul li a{
     line-height:1.875em; /*30px;*/
     height:1.875em; /*30px;*/
     font-family: Arial;
-    color: #406BB6;
+    color: white;
 }
 header nav ul li a:hover{
-    background-color: #7094AC;
     background-image:url(../img/1.png);
     color: white;
 }
