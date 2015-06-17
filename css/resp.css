@@ -51,7 +51,7 @@ header figure{
     width: 100%; /*955px;*/
 }
 #main h1{
-    margin:0;
+    margin:2px 0;
     font-size:1.500em; /*24px;*/
     padding:.5em 0;
     text-align: center;
@@ -257,6 +257,7 @@ footer p{
 
 
 /* MEDIA QUERIES */ 
+/* Version tablette Horizontal : onglets */ 
 @media screen and (min-width:801px) {
     header nav select{
         display:none;
@@ -267,8 +268,22 @@ footer p{
     #docs table.tenue_resp{
         display:none;   
     }
+    /* onglets */
+    header nav ul li a{
+        /*background-image:none;*/
+        background-image:url(../img/2.png);
+        background-color:white;
+        border: 1px solid white;
+    }
+    header nav ul li a:hover{
+        /*background-image:none;*/
+        background-image:url(../img/1.png);
+        background-color:white;
+        border: 1px solid white;
+    }
 }
 
+/* Version desktop */
 @media screen and (min-width:960px){
     header nav {
         width:20%;
@@ -286,11 +301,16 @@ footer p{
         display:block;
         width:100%;
         color: white;
+        background-image:url(../img/2.png);
+        background-color:white;
+        border:1px solid white;
     }	
 
     header nav ul li a:hover {
         color: white;
-        background-color: #AEC9EC;
+        background-image:url(../img/1.png);
+        background-color:white;
+        border:1px solid white;
     }	
     section {
         width:80%;
@@ -301,6 +321,7 @@ footer p{
     }
 }
 
+/* Version tablette Vertical */ 
 @media screen and (max-width:800px) {
     header nav ul {
         display:none;
@@ -334,6 +355,7 @@ footer p{
     }
 }
 
+/* Version smartphone */
 @media screen and (max-width:480px) {
     #responsive_banner {
         display:none;
