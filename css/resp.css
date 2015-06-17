@@ -44,14 +44,52 @@ header figure{
     margin:0 auto;
     padding:0;
 }
-/* MENU : voir nav_bouton.css */
+/* MENU *//*
+header nav{
+    display:block;
+}
+header nav ul{
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+    height:1.875em; 
+    background-color: #ccc;
+}
+header nav ul li{
+    display:inline-block;
+    height: 1.875em; 
+    line-height: 1.875em; 
+    width:13%; 
+    font-weight: bolder;
+    background-color: #ccc;
+}
+header nav ul li a{
+    display:block;
+    text-decoration: none;
+    margin:0 auto;
+    max-width:99%; 
+    text-align:center;
+    line-height:1.875em; 
+    height:1.875em; 
+    font-family: Arial;
+    color: #406BB6;
+}
+header nav ul li a:hover{
+    background-color: #7094AC;
+    color: white;
+}*/
 
 /* SECTION MAIN */
 #main section{
     width: 100%; /*955px;*/
+    /*background-color: white; 
+    border: 1px solid #7CB2D3;*/
 }
 #main h1{
-    margin:2px 0;
+    /*background-color: #4B7EA7;
+    color: white;*/
+    margin:0;
     font-size:1.500em; /*24px;*/
     padding:.5em 0;
     text-align: center;
@@ -75,9 +113,11 @@ header figure{
 #docs article
 {
     margin:0 .5em .5em .5em;
+    /*border: 1px solid #F8BB61;*/ /* jaune */
 }
 #news article.right{
     margin:.5em;
+    /*border: 1px solid #FE6B6B;*/ /* rouge */
 }
 #news article h2, 
 #about article h2, 
@@ -85,6 +125,8 @@ header figure{
 #galery article h2, 
 #contact article h2, 
 #docs article h2{
+    /*background-color: #F8BB61;*/ /* jaune */ 
+    /*color: white;*/
     font-size:1.125em; 
     text-align: center;
     margin:0;
@@ -93,12 +135,16 @@ header figure{
 #contact article h3, 
 #about article h3
 {
+    /*background-color: #95B0CF;*/ /* bleu */ 
+    /*color: white;*/
     font-size:.938em;
     text-align: center;
     margin:0;
     padding:.5em 0;
 }
-
+/*#news article.right h2{
+    background-color: #FE6B6B; *//* rouge */
+/*}*/
 
 #news article p,
 #about article p,  
@@ -132,9 +178,11 @@ header figure{
 }
 #liens article ul.ssnav li a{
     text-decoration: none;
+    /*color: #406BB6;*/
 }
 #liens article ul.ssnav li a:hover{
     text-decoration: underline;
+    /*color: #202D44;*/
 }
 
 /* SS SECTION DATES */
@@ -170,15 +218,18 @@ pre{
 #dates table.lieux th{
     width: 32%;
 }
-
+/*#docs table.tenue th, #docs table.tenue td{
+    border:1px solid #FECC3E;
+}*/
 #docs table.tenue td, #docs table.cotisation td, #dates table.lieux td{
     text-align:center;
 }
 
 /* SS SECTION GALERY */
-
-
-/* FORMULAIRE et bouton de connexion */
+img.jo{
+    width:100%;
+}
+/* FORMULAIRE de connexion */
 p.adminmedia{
     text-align:center;
 }
@@ -232,6 +283,7 @@ input[type="submit"]:hover{
 
 /* FOOTER */
 footer{
+    /*background-color: #7CB2D3;*/ /*#72BBE8; */
     text-align:center;
     padding:.2em;
 }
@@ -242,6 +294,7 @@ img.sponsor{
 footer p{
     font-size:.75em;
     margin:.5em;
+   /* color: #406BB6;*/
 }
 
 
@@ -257,7 +310,7 @@ footer p{
 
 
 /* MEDIA QUERIES */ 
-/* Version tablette Horizontal : onglets */ 
+/* 3 eme taille en partant de la plus petite, format tablette horizontale'*/
 @media screen and (min-width:801px) {
     header nav select{
         display:none;
@@ -266,24 +319,13 @@ footer p{
         width:100%;
     }
     #docs table.tenue_resp{
-        display:none;   
+        display:none;
+        
     }
-    /* onglets */
-    header nav ul li a{
-        /*background-image:none;*/
-        background-image:url(../img/2.png);
-        background-color:white;
-        border: 1px solid white;
-    }
-    header nav ul li a:hover{
-        /*background-image:none;*/
-        background-image:url(../img/1.png);
-        background-color:white;
-        border: 1px solid white;
-    }
+    
+
 }
 
-/* Version desktop */
 @media screen and (min-width:960px){
     header nav {
         width:20%;
@@ -295,22 +337,18 @@ footer p{
     }
     header nav ul li {
         width:95%;
-        background-color: white;
+        border: 1px solid white;
+        background-color: #4B7EA7;
     }
     header nav ul li a{
         display:block;
         width:100%;
         color: white;
-        background-image:url(../img/2.png);
-        background-color:white;
-        border:1px solid white;
     }	
 
     header nav ul li a:hover {
-        color: white;
-        background-image:url(../img/1.png);
-        background-color:white;
-        border:1px solid white;
+        color: #406BB6;
+        background-color: #AEC9EC;
     }	
     section {
         width:80%;
@@ -321,7 +359,6 @@ footer p{
     }
 }
 
-/* Version tablette Vertical */ 
 @media screen and (max-width:800px) {
     header nav ul {
         display:none;
@@ -355,7 +392,6 @@ footer p{
     }
 }
 
-/* Version smartphone */
 @media screen and (max-width:480px) {
     #responsive_banner {
         display:none;
