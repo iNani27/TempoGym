@@ -1,15 +1,15 @@
 /* color */
 /* font color*/
 body{
-    color: #202D44; /* font */ 
+    color: #2e89dd; /* font */ 
 }
 /* SECTION MAIN */
 #main section{
     background-color: white;
-    border: 1px solid #7CB2D3;
+    border: 1px solid #95c9e0; 
 }
 #main h1{
-    background-color: #1f90ff; /*Bleu*/
+    background-color: #278CED; /*Bleu*/   
     color: white;
 }
 /* SS SECTION */
