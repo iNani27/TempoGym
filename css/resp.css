@@ -31,12 +31,12 @@ jaune: #FDF465
 
 
 body{
-    width: 100%; /*955px;*/
+    width: 100%; 
     margin:0 auto;
     padding: 0;
-    font-size: 1em; /*16px;*/
+    font-size: 1em; 
     font-family: Arial;
-    color: #202D44; /* font */ 
+    /*color: #202D44; */
 }
 
 /* BANNER */
@@ -44,7 +44,7 @@ header figure{
     margin:0 auto;
     padding:0;
 }
-/* MENU */
+/* MENU *//*
 header nav{
     display:block;
 }
@@ -52,15 +52,15 @@ header nav ul{
     list-style-type:none;
     padding: 0;
     margin: 0;
-    width: 100%; /*955px;*/
-    height:1.875em; /*30px;*/
+    width: 100%; 
+    height:1.875em; 
     background-color: #ccc;
 }
 header nav ul li{
     display:inline-block;
-    height: 1.875em; /*30px;*/
-    line-height: 1.875em; /*30px;*/
-    width:13%; /* 132px; */
+    height: 1.875em; 
+    line-height: 1.875em; 
+    width:13%; 
     font-weight: bolder;
     background-color: #ccc;
 }
@@ -68,27 +68,27 @@ header nav ul li a{
     display:block;
     text-decoration: none;
     margin:0 auto;
-    max-width:99%; /* 132px; */
+    max-width:99%; 
     text-align:center;
-    line-height:1.875em; /*30px;*/
-    height:1.875em; /*30px;*/
+    line-height:1.875em; 
+    height:1.875em; 
     font-family: Arial;
     color: #406BB6;
 }
 header nav ul li a:hover{
     background-color: #7094AC;
     color: white;
-}
+}*/
+
 /* SECTION MAIN */
 #main section{
     width: 100%; /*955px;*/
-    background-color: white; /*#CEE0F5;
-    padding: 0 0 .938em 0; /*5px 0 15px 0;*/
-    border: 1px solid #7CB2D3;
+    /*background-color: white; 
+    border: 1px solid #7CB2D3;*/
 }
 #main h1{
-    background-color: #4B7EA7;
-    color: white;
+    /*background-color: #4B7EA7;
+    color: white;*/
     margin:0;
     font-size:1.500em; /*24px;*/
     padding:.5em 0;
@@ -113,11 +113,11 @@ header nav ul li a:hover{
 #docs article
 {
     margin:0 .5em .5em .5em;
-    border: 1px solid #F8BB61; /* jaune */
+    /*border: 1px solid #F8BB61;*/ /* jaune */
 }
 #news article.right{
     margin:.5em;
-    border: 1px solid #FE6B6B; /* rouge */
+    /*border: 1px solid #FE6B6B;*/ /* rouge */
 }
 #news article h2, 
 #about article h2, 
@@ -125,9 +125,9 @@ header nav ul li a:hover{
 #galery article h2, 
 #contact article h2, 
 #docs article h2{
-    background-color: #F8BB61; /* jaune */ 
-    color: white;
-    font-size:1.125em; /*18px;*/
+    /*background-color: #F8BB61;*/ /* jaune */ 
+    /*color: white;*/
+    font-size:1.125em; 
     text-align: center;
     margin:0;
     padding:.5em 0;
@@ -135,16 +135,16 @@ header nav ul li a:hover{
 #contact article h3, 
 #about article h3
 {
-    background-color: #95B0CF; /* bleu */ 
-    color: white;
+    /*background-color: #95B0CF;*/ /* bleu */ 
+    /*color: white;*/
     font-size:.938em;
     text-align: center;
     margin:0;
     padding:.5em 0;
 }
-#news article.right h2{
-    background-color: #FE6B6B; /* rouge */
-}
+/*#news article.right h2{
+    background-color: #FE6B6B; *//* rouge */
+/*}*/
 
 #news article p,
 #about article p,  
@@ -178,11 +178,11 @@ header nav ul li a:hover{
 }
 #liens article ul.ssnav li a{
     text-decoration: none;
-    color: #406BB6;
+    /*color: #406BB6;*/
 }
 #liens article ul.ssnav li a:hover{
     text-decoration: underline;
-    color: #202D44;
+    /*color: #202D44;*/
 }
 
 /* SS SECTION DATES */
@@ -209,16 +209,19 @@ pre{
 #docs img.w_ico{
     width:3%;
 }
-#docs table.tenue{
+#docs table.tenue,#docs table.cotisation, #dates table.lieux{
     width: 100%;
 }
-#docs table.tenue th{
+#docs table.tenue th, #docs table.cotisation td{
     width: 24%;
 }
-#docs table.tenue th, #docs table.tenue td{
-    border:1px solid #FECC3E;
+#dates table.lieux th{
+    width: 32%;
 }
-#docs table.tenue td{
+/*#docs table.tenue th, #docs table.tenue td{
+    border:1px solid #FECC3E;
+}*/
+#docs table.tenue td, #docs table.cotisation td, #dates table.lieux td{
     text-align:center;
 }
 
@@ -280,7 +283,7 @@ input[type="submit"]:hover{
 
 /* FOOTER */
 footer{
-    background-color: #7CB2D3; /*#72BBE8; */
+    /*background-color: #7CB2D3;*/ /*#72BBE8; */
     text-align:center;
     padding:.2em;
 }
@@ -291,7 +294,7 @@ img.sponsor{
 footer p{
     font-size:.75em;
     margin:.5em;
-    color: #406BB6;
+   /* color: #406BB6;*/
 }
 
 
@@ -429,7 +432,7 @@ footer p{
     #contact p {
         margin: 2px 0;
     }
-    #contact span.none{
+    #contact span.none, #docs span.none{
         display:none;
     }
 }

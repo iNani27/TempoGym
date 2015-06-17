@@ -4,7 +4,9 @@ session_start();
 if (!isset($_SESSION['id_session']) || $_SESSION['id_session'] != session_id()) {
     header("Location: deconnect.php");
 }
-include_once 'inc/head.php';
+include_once 'meta.php';
+include_once 'fotorama.php';
+include_once 'nav.php';
 ?>
 <section id="main">		
     <h1>Tempogym Jette</h1>
@@ -19,9 +21,18 @@ include_once 'inc/head.php';
                     <button class="adminmedia" type="button">Déconnexion</button>
                 </a>
             </p>
-            <figure>
+            <center>
+                <div class="fotorama" data-autoplay="true">
+                    <img src="img/slider1.jpg">
+                    <img src="img/slider2.jpg">
+                    <img src="img/slider3.jpg">
+                    <img src="img/slider4.jpg">
+                    <img src="img/slider5.jpg">
+                </div>
+            </center>
+            <!--<figure>
                 <img class="jo" src="img/jo.jpg" />
-            </figure>
+            </figure>-->
         </article>
         <?php
         include_once 'inc/footer.php';

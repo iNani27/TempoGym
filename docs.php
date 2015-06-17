@@ -68,9 +68,92 @@ include_once 'inc/head.php';
 
         <article>
             <h2>
-                COTISATIONS 2015-2016 / HORAIRE DES COURS
+                COTISATIONS 2015-2016
             </h2>
-            <p class="word"><a href="docs/COTISATIONS_HORAIRE_COURS.JPG" title="COTISATIONS et HORAIRE COURS"><img class="word" src="docs/COTISATIONS_HORAIRE_COURS.JPG" alt="COTISATIONS et HORAIRE COURS"/></a></p>
+            <table class="cotisation">
+                <tr>
+                    <th colspan="2">Groupes</th>
+                    <th>Moniteurs</th>
+                    <th>Prix</th>
+                    
+                </tr>
+                <tr>
+                    <td rowspan="2">Mixte</td>
+                    <td>Baby gym</td>
+                    <td rowspan="2">Caliopi-Gaëlle<br />
+                    Charline-Alizée</td>
+                    <td rowspan="5">209&nbsp;€</td>
+                </tr>
+                <tr>
+                    <td>Pré-gym</td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td rowspan="4">Filles</td>
+                    <td rowspan="3">1*/sem. -2h30</td>
+                    <td>Julie</td>
+                   
+                </tr>
+                <tr>
+                    <td>??? </td>
+                    
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>1*/sem. -3h</td>
+                    <td>Caliopi</td>
+                    <td>239&nbsp;€</td>
+                </tr>
+                <tr>
+                    <td rowspan="5">Filles Compét<span class="none">ition</span></td>
+                    <td>2*/sem. +04 dim.</td>
+                    <td>Virginie</td>
+                    <td>329&nbsp;€</td>
+                </tr>
+                <tr>
+                    <td>2*/sem. +08 dim.</td>
+                    <td>Caroline ???</td>
+                    <td>349&nbsp;€</td>
+                </tr>
+                <tr>
+                    <td>2*/sem. +14 dim.</td>
+                    <td>Patrice</td>
+                    <td>379&nbsp;€</td>
+                </tr>
+                <tr>
+                    <td>2*/sem. +14 dim.</td>
+                    <td>Stéphane</td>
+                    <td>379&nbsp;€</td>
+                </tr>
+                <tr>
+                    <td>2*/sem. +21 dim.</td>
+                    <td>Jonathan</td>
+                    <td>414&nbsp;€</td>
+                </tr>
+                <tr>
+                    <td rowspan="3"></td>
+                    <td rowspan="3">1*/sem.</td>
+                    <td>Matthieu</td>
+                    <td rowspan="3">209&nbsp;€</td>
+                </tr>
+                <tr>
+                    <td>Maxime</td>
+                </tr>
+                <tr>
+                    <td>Brieuc</td>
+                </tr>
+                <tr>
+                    <td>Garçons Compét<span class="none">ition</span></td>
+                    <td>2*/sem. +14 dim.</td>
+                    <td>Ludovic</td>
+                    <td>379&nbsp;€</td>
+                </tr>
+                
+            </table>
+            
             <p>
                 La cotisation doit être réglée en une fois, au plus tard le 16 septembre 2015, et peut être versée sur le compte BE97 1490 5877 9749 / BIC : GEBABEBB de Tempogym Jette.
             </p>
