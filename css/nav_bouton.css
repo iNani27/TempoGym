@@ -8,7 +8,9 @@ header nav ul{
     margin: 0;
     width: 100%; /*955px;*/
     height:1.875em; /*30px;*/
-    background-color: #ccc;
+   background-color:#1f90ff ;
+  
+
 }
 header nav ul li{
     display:inline-block;
@@ -16,12 +18,13 @@ header nav ul li{
     line-height: 1.875em; /*30px;*/
     width:13%; /* 132px; */
     font-weight: bolder;
-    background-color: #ccc;
+   background-color:#1f90ff ;
 }
 header nav ul li a{
     display:block;
     text-decoration: none;
     margin:0 auto;
+    background-image:url(../img/2.png);
     max-width:99%; /* 132px; */
     text-align:center;
     line-height:1.875em; /*30px;*/
@@ -31,6 +34,7 @@ header nav ul li a{
 }
 header nav ul li a:hover{
     background-color: #7094AC;
+    background-image:url(../img/1.png);
     color: white;
 }
 

@@ -9,7 +9,7 @@ body{
     border: 1px solid #7CB2D3;
 }
 #main h1{
-    background-color: #4B7EA7;
+    background-color: #1f90ff; /*Bleu*/
     color: white;
 }
 /* SS SECTION */
@@ -39,7 +39,7 @@ body{
 #contact article h3, 
 #about article h3
 {
-    background-color: #95B0CF; /* bleu */ 
+    background-color: #1f90ff; /* bleu */ 
     color: white;
 }
 /* Page Accueil - Quicklinks: ssnav */
