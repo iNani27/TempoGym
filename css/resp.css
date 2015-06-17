@@ -309,7 +309,8 @@ footer p{
 }
 
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES */ 
+/* 3 eme taille en partant de la plus petite, format tablette horizontale'*/
 @media screen and (min-width:801px) {
     header nav select{
         display:none;
@@ -319,7 +320,32 @@ footer p{
     }
     #docs table.tenue_resp{
         display:none;
+        
     }
+    
+     header nav ul{
+        
+      background-image: none;   
+      background-color:#1f90ff ;
+        
+    }
+    
+    header nav ul li a{
+        
+      background-image: none;   
+      background-color:#1f90ff ;
+        
+    }
+    
+   
+    
+     header nav ul li a:hover {
+        
+      background-image: none;   
+      background-color:#1f90ff ;
+        
+    }
+
 }
 
 @media screen and (min-width:960px){
