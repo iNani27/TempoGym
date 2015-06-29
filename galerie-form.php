@@ -1,7 +1,38 @@
 <?php
-$table='tgj_galery';
-$destination = 'media.php';
-include_once 'ia/inc/log.php';
+session_start();
+require_once 'connect.php';
+// Si on a envoyer le form
+/*
+  var_dump($_POST);
+ */
+if (isset($_POST['lelogin']) && isset($_POST['lemdp'])) {
+    $lelogin = htmlspecialchars(strip_tags(trim($_POST['lelogin'])), ENT_QUOTES);
+    $lemdp = md5(htmlspecialchars(strip_tags(trim($_POST['lemdp'])), ENT_QUOTES));
+
+    // vérification dans la table utilisateurs si le login ET le mdp correspondent à un utilisateur
+    $recup_util_membre = mysqli_query($connect, "SELECT * FROM `tgi_users` WHERE `tgi_pages_id`=9 AND lelogin='$lelogin' AND lemdp='$lemdp'; ") or die("Erreur: " . mysqli_error($connect));
+    
+
+    // si on a récupéré un utilisateur (donc connexion réussie) - mysqli_num_rows($req) envoie le nombre de lignes de résultats obtenu par la requête, si il n'a pas de résultat il envoie 0 (0==false), sinon un entier numérique (int == true). Ici, comme lelogin est unique, on ne peut avoir que 0 ou 1 comme résultat
+    if (mysqli_num_rows($recup_util_membre)) {
+        $recup_tab_membre = mysqli_fetch_assoc($recup_util_membre);
+
+        // création des variables de sessions, on y stocke
+        // 1- session_id du cookie local
+        // 2- les résultats de notre req
+        // variable de sécurité contenant le session_id
+        /*  */
+        $_SESSION['id_session_membre'] = session_id();
+        // variables venant de la table utilisateurs
+        $_SESSION['lid_membre'] = $recup_tab_membre['id'];
+        $_SESSION['lelogin_membre'] = $recup_tab_membre['lelogin'];
+        // redirection vers galerie ou admin
+        header("Location: media.php");
+    } else {
+        $erreur_connect = "Login ou mot de passe incorrecte";
+    }
+}
+
 include_once 'inc/head.php';
 ?>
 <section id="main">		

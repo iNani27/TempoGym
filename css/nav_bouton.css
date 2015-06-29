@@ -18,6 +18,10 @@ header nav ul li{
     margin: 0px -2px;
     font-weight: bolder;
 }
+/* pour ss menu: le li qui contient une ul ... au survole */
+
+
+
 header nav ul li a{
     display:block;
     text-decoration: none;
@@ -39,7 +43,7 @@ header nav ul li a:hover{
 
 
 /* Sub MENU */
-header nav li ul{
+header nav ul li ul{
 	background:transparent;
 	display:none;
 	height:auto;
@@ -51,11 +55,11 @@ header nav li ul{
 	z-index:200;
 	}
 	
-header nav li:hover ul{
+header nav ul li:hover ul{
 	display:block;
 	}
 	
-header nav li li {
+header nav ul li ul li {
 	display:block;
 	float:none;
 	margin:0px;
@@ -63,11 +67,11 @@ header nav li li {
 	width:100%;
 	}
 	
-header nav li:hover li a{
+/*header nav ul li:hover ul li a{
 	background:none;
-	}
+	}*/
 	
-header nav li ul a{
+header nav ul li ul li a{
 	display:block;
 	background-image:url(../img/2.png);
 	background-color:white;
@@ -79,7 +83,7 @@ header nav li ul a{
 	text-align:left;
 	}
 	
-header nav li ul a:hover, header nav li ul li:hover a{
+header nav ul li ul li a:hover{ /* , header nav ul li ul li:hover a*/
 	
 	background-image:url(../img/1.png);
     background-color:white;

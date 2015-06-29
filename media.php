@@ -1,7 +1,7 @@
 <?php
 session_start();
 /* Si la session n'existe pas (encore) ou ne correspond plus au cookie */
-if (!isset($_SESSION['id_session']) || $_SESSION['id_session'] != session_id()) {
+if (!isset($_SESSION['id_session_membre']) || $_SESSION['id_session_membre'] != session_id()) {
     header("Location: deconnect.php");
 }
 include_once 'inc/meta.php';
@@ -14,7 +14,7 @@ include_once 'inc/nav.php';
         <article>
             <h2>Galerie</h2>
             <p>
-                Vous êtes connecté en tant que membre<span class="hidden">, bienvenue "<?= $_SESSION['lelogin']; ?>"</span>
+                Vous êtes connecté en tant que membre<span class="hidden">, bienvenue "<?= $_SESSION['lelogin_membre']; ?>"</span>
             </p>
             <p class="adminmedia">
                 <a href="deconnect.php">
