@@ -1,4 +1,3 @@
-
 </head>
 <body>
     <!-- <h1>Tempogym : club de gymnastique à Jette </h1>-->
@@ -11,11 +10,11 @@
             <ul>
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="club.php">Le club</a>
-                    <!--<ul class="sous_menu">
+                    <ul class="sous_menu">
                         <li><a href="hist.php">Histoire et philosophie</a>
                         <li><a href="asbl.php">Le comit&eacute;</a>
                             
-                    </ul>-->
+                    </ul>
                 </li>
                 <li><a href="dates.php">Dates</a></li>
 
@@ -29,7 +28,11 @@
                 <option class="selected" value="" selected="selected">Aller sur la page</option>
                 <option value="index.php">Accueil</option>
                 <option value="club.php">Le club</option>
-           <!-- rajout ss menu ?-->     
+           <!-- rajout ss menu ?-->  
+           <!-- 
+           <option value="hist.php">Histoire et philosophie</option>
+                <option value="asbl.php">Le comit&eacute;</option>
+           -->
                 <option value="dates.php">Dates</option>
                 <option value="galerie.php">Galerie</option>
                 <option value="contact.php">Contact</option>

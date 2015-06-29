@@ -37,7 +37,7 @@ header nav ul li a:hover{
 }
 
 header nav ul {
-    background-color:#CED8F6; 
+    background-color:#CED8F6;
 
 }
 
@@ -45,6 +45,7 @@ header nav ul li {
     border-radius: 3px; 
     border: 1px solid #CED8F6;
     background-color: #4B7EA7;
+    
 }
 
 #responsive_banner {
