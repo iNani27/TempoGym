@@ -276,7 +276,7 @@ footer p{
         float:left;
     }
     header nav ul {
-        background-color: white; 
+        background-color: #CED8F6; /*white; transparent */
         height:auto;
     }
     header nav ul li {
@@ -298,6 +298,9 @@ footer p{
         background-color:white;
         border:1px solid white;
     }	
+	header nav ul li ul{
+		display:none;
+	}
     section {
         width:80%;
         float:left;
