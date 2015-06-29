@@ -14,7 +14,7 @@ include_once 'inc/head.php';
     <section id="news">
         <article>
             <?php
-            while ($ligne = mysqli_fetch_assoc($req)) {
+            while ($ligne = mysqli_fetch_assoc($reqarticles)) {
                 echo "<h2>" . $ligne['letitre'] . "</h2>";
                 echo "<p>" . $ligne['letexte'] . "</p>";
                 echo "<a href='modif.php?id=" . $ligne['id'] . "'><input type='button' value='Modifier' /></a>";
@@ -24,7 +24,7 @@ include_once 'inc/head.php';
         </article>
         <article class="right">
             <?php
-            while ($ligne = mysqli_fetch_assoc($req2)) {
+            while ($ligne = mysqli_fetch_assoc($reqarticles)) {
                 echo "<h2>" . $ligne['letitre'] . "</h2>";
                 echo "<p>" . $ligne['letexte'] . "</p>";
                 echo "<a href='modif.php?id=" . $ligne['id'] . "'><input type='button' value='Modifier' /></a>";

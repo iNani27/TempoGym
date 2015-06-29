@@ -14,7 +14,7 @@ include_once 'inc/nav.php';
         <article>
             <h2>Galerie</h2>
             <p>
-                Vous êtes connecté en tant que membre, bienvenue "<?= $_SESSION['lelogin']; ?>"
+                Vous êtes connecté en tant que membre<span class="hidden">, bienvenue "<?= $_SESSION['lelogin']; ?>"</span>
             </p>
             <p class="adminmedia">
                 <a href="deconnect.php">
