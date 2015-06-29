@@ -162,8 +162,10 @@ pre{
 }
 
 /* SS SECTION GALERY */
-
-
+/* nom du membre connecté - galerie images */
+.hidden{
+    display:none;  
+}
 /* FORMULAIRE et bouton de connexion */
 p.adminmedia{
     text-align:center;

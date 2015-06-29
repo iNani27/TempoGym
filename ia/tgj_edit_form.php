@@ -1,4 +1,3 @@
-﻿
 
        <form action="" method="" name="info">
            <input type="text" name="letitre" />
