@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
 session_start();
 /* Si la session n'existe pas (encore) ou ne correspond plus au cookie */

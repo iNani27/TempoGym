@@ -1,5 +1,9 @@
 <?php
+/* local*/
   $serveur = "localhost";
-  $db = "tempogym";
   $login = "root";
   $password = ""; 
+  $db = "tempogym";
+
+
+
