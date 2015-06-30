@@ -22,6 +22,12 @@ include_once 'inc/nav.php';
                 </a>
             </p>
             <center>
+                <div id="audio">
+                    <audio controls="controls" preload="none">
+                        <source src="audio/Candy.mp3" type="audio/mp3" /> 
+                        Votre navigateur n'est pas compatible
+                    </audio>
+                </div>
                 <div class="fotorama" data-autoplay="true">
                     <img src="img/slider1.jpg">
                     <img src="img/slider2.jpg">
@@ -30,9 +36,6 @@ include_once 'inc/nav.php';
                     <img src="img/slider5.jpg">
                 </div>
             </center>
-            <!--<figure>
-                <img class="jo" src="img/jo.jpg" />
-            </figure>-->
         </article>
         <?php
         include_once 'inc/footer.php';
