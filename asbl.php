@@ -1,4 +1,10 @@
 <?php
+session_start();
+require_once 'connect.php';
+/* afficher les contenus de la DB page asbl: x articles */
+$sql_p4_all="SELECT * FROM `tgj_articles` WHERE `tgi_pages_id`=4";
+$req_p4_all=mysqli_query($connect, $sql_p4_all) or die(mysqli_error($connect));
+
 include_once 'inc/head.php';
 ?>
 <section id="main">		
@@ -6,6 +12,13 @@ include_once 'inc/head.php';
     <section id="about">
         <article>
             <h2>Le comité administratif</h2>
+            <?php 
+            /*while($recup_p4_all=mysqli_fetch_assoc($req_p4_all)){
+                echo "<h3>".$recup_p4_all['letitre']."</h3>";
+                echo "<p>".$recup_p4_all['letexte']."</p>";
+                
+            }*/
+            ?>
             <h3>Président</h3>
             <p>Stéphane Etienne</p>
             <p>Tél. : 02/476.92.11</p>
