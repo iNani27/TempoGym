@@ -425,7 +425,20 @@ include_once 'inc/head.php';
         </article>
         <article>
             <h2><a id="dim"></a>Calendrier des dimanches</h2>
-            <p class="dim"><a href="docs/calendier_dimanche_2015.pdf" title="Calendrier des dimanches"><img class="dim" src="docs/calendier_dimanche_2015.jpg" alt="Calendrier des dimanches"/></a></p>
+            <!-- <p class="dim"><a href="docs/calendier_dimanche_2015.pdf" title="Calendrier des dimanches"><img class="dim" src="docs/calendier_dimanche_2015.jpg" alt="Calendrier des dimanches"/></a></p>
+        </article>
+        <article> -->
+            <?php
+            require_once 'ia/tgj_upload.php';
+                while ($ledoc = mysqli_fetch_assoc($recup_dim)) {
+                    /*echo "<a href='" . $ledoc['lurl'] . "' target='_blank'>" . $ledoc['letitre'] . "</a> (";
+                    // BONUS affichage de l'extension récupérée de l'url
+                    echo strrchr($ledoc['lurl'], '.');
+                    echo ")<br />";*/
+                    
+                    echo "<iframe  width='100%' height='900px' src='http://localhost/tempogym/x/".$ledoc['lurl']."'><p class='dim'><a href='http://localhost/tempogym/x/".$ledoc['lurl']."' title='Calendrier des dimanches'><img class='dim' src='http://localhost/tempogym/x/".$ledoc['lurl']."' alt='Calendrier des dimanches'/></a></p></iframe><br />";
+                }
+                ?>
         </article>
     </section>
 
