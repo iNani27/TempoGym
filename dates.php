@@ -96,54 +96,54 @@ include_once 'inc/head.php';
                 <thead>
                     <tr>
                         <th rowspan="5">SAISON<br />2014-2015</th>
-                        <th colspan="3">03/09</th>
-                        <th colspan="3">10/09</th>
-                        <th colspan="3">17/09</th>
-                        <th colspan="3">24/09</th>
-                        <th colspan="3">01/10</th>
-                        <th colspan="3">08/10</th>
-                        <th colspan="3">15/10</th>
+                        <td colspan="3">03/09</td>
+                        <td colspan="3">10/09</td>
+                        <td colspan="3">17/09</td>
+                        <td colspan="3">24/09</td>
+                        <td colspan="3">01/10</td>
+                        <td colspan="3">08/10</td>
+                        <td colspan="3">15/10</td>
                     </tr>
                     <tr>
 
-                        <th colspan="3">22/10</th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
+                        <td colspan="3">22/10</td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
                     </tr>
                     <tr>
 
-                        <th colspan="3">17/12</th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
+                        <td colspan="3">17/12</td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
                     </tr>
                     <tr>
 
-                        <th colspan="3">25/02</th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
+                        <td colspan="3">25/02</td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
                     </tr>
                     <tr>
 
-                        <th colspan="3">29/04</th>
-                        <th colspan="3"></th>
+                        <td colspan="3">29/04</td>
+                        <td colspan="3"></td>
 
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
                     </tr>
                 </thead>
 
@@ -174,54 +174,54 @@ include_once 'inc/head.php';
                 <thead>
                     <tr>
                         <th rowspan="5">SAISON<br />2014-2015</th>
-                        <th colspan="3">03/09</th>
-                        <th colspan="3">10/09</th>
-                        <th colspan="3">17/09</th>
-                        <th colspan="3">24/09</th>
-                        <th colspan="3">01/10</th>
-                        <th colspan="3">08/10</th>
-                        <th colspan="3">15/10</th>
+                        <td colspan="3">03/09</td>
+                        <td colspan="3">10/09</td>
+                        <td colspan="3">17/09</td>
+                        <td colspan="3">24/09</td>
+                        <td colspan="3">01/10</td>
+                        <td colspan="3">08/10</td>
+                        <td colspan="3">15/10</td>
                     </tr>
                     <tr>
 
-                        <th colspan="3">22/10</th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
+                        <td colspan="3">22/10</td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
                     </tr>
                     <tr>
 
-                        <th colspan="3">17/12</th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
+                        <td colspan="3">17/12</td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
                     </tr>
                     <tr>
 
-                        <th colspan="3">25/02</th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
+                        <td colspan="3">25/02</td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
                     </tr>
                     <tr>
 
-                        <th colspan="3">29/04</th>
-                        <th colspan="3"></th>
+                        <td colspan="3">29/04</td>
+                        <td colspan="3"></td>
 
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
-                        <th colspan="3"></th>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
+                        <td colspan="3"></td>
                     </tr>
                 </thead>
             </table>
