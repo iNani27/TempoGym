@@ -61,9 +61,18 @@ include_once 'inc/head.php';
         <article>
             <h2>Documents à télécharger</h2>
             <ul>
-                <li><a href="docs/reinscription.docx" alt="">Avis parent - Réinscription</a>&nbsp;<img class="w_ico" src="img/word-doc-icon_vo.png" alt="icone word à télécharger" /></li>
-                <li><a href="docs/infos_cours_alain.docx" alt="">Infos cours Alain.docx</a>&nbsp;<img class="w_ico" src="img/word-doc-icon_vo.png" alt="icone word à télécharger" /></li>  
+                <li><a href="docs/reinscription.pdf" alt="">Avis parent - Réinscription</a></li>
+                <li><a href="docs/infos_cours_alain.pdf" alt="">Infos cours Alain.docx</a></li>  
             </ul>
+            <?php
+            require_once 'ia/tgj_upload.php';
+            while ($lesdocs = mysqli_fetch_assoc($recup_docs)) {
+                echo "<li><a href='" . $lesdocs['lurl'] . "' target='_blank'>" . $lesdocs['letitre'] . "</a> (";
+                // BONUS affichage de l'extension récupérée de l'url
+                echo strrchr($lesdocs['lurl'], '.');
+                echo ")</li><br />";
+            }
+            ?>
         </article>
 
         <article>
@@ -75,29 +84,29 @@ include_once 'inc/head.php';
                     <th colspan="2">Groupes</th>
                     <th>Moniteurs</th>
                     <th>Prix</th>
-                    
+
                 </tr>
                 <tr>
                     <td rowspan="2">Mixte</td>
                     <td>Baby gym</td>
                     <td rowspan="2">Caliopi-Gaëlle<br />
-                    Charline-Alizée</td>
+                        Charline-Alizée</td>
                     <td rowspan="5">209&nbsp;€</td>
                 </tr>
                 <tr>
                     <td>Pré-gym</td>
-                    
-                    
+
+
                 </tr>
                 <tr>
                     <td rowspan="4">Filles</td>
                     <td rowspan="3">1*/sem. -2h30</td>
                     <td>Julie</td>
-                   
+
                 </tr>
                 <tr>
                     <td>??? </td>
-                    
+
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -151,9 +160,9 @@ include_once 'inc/head.php';
                     <td>Ludovic</td>
                     <td>379&nbsp;€</td>
                 </tr>
-                
+
             </table>
-            
+
             <p>
                 La cotisation doit être réglée en une fois, au plus tard le 16 septembre 2015, et peut être versée sur le compte BE97 1490 5877 9749 / BIC : GEBABEBB de Tempogym Jette.
             </p>

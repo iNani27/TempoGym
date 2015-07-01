@@ -147,7 +147,7 @@ pre{
 #docs img.w_ico{
     width:3%;
 }
-#docs table.tenue,#docs table.cotisation, #dates table.lieux{
+#docs table.tenue,#docs table.cotisation, #dates table.lieux, #dates table.jour{
     width: 100%;
 }
 #docs table.tenue th, #docs table.cotisation td{
@@ -156,8 +156,11 @@ pre{
 #dates table.lieux th{
     width: 32%;
 }
+#dates table.jour td{
+    width: 12%;
+}
 
-#docs table.tenue td, #docs table.cotisation td, #dates table.lieux td{
+#docs table.tenue td, #docs table.cotisation td, #dates table.lieux td, #dates table.jour td{
     text-align:center;
 }
 

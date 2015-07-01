@@ -91,8 +91,8 @@ include_once 'inc/head.php';
         <article>
 
             <h2><a id="merc"></a>Mercredi</h2>
-       <!--   <table id="rotation">
-                <caption>Les dates des mercredis</caption>
+       <table class="jour">
+           <!-- <caption>Les dates des mercredis</caption> -->
                 <thead>
                     <tr>
                         <th rowspan="5">SAISON<br />2014-2015</th>
@@ -147,201 +147,14 @@ include_once 'inc/head.php';
                     </tr>
                 </thead>
 
-            <!--<tbody>
-                <tr>
-                    <th>Virginie</th>
-                    <td>&nbsp;□</td>
-                    <td>&nbsp;//</td>
-                    <td>&nbsp;↷</td>
-                    <td>&nbsp;□p</td>
-                    <td>&nbsp;	Esp</td>
-                    <td>&nbsp;	─</td>
-                    <td>&nbsp;	MT</td>
-                    <td>&nbsp;	□</td>
-                    <td>&nbsp;	//</td>
-                    <td>&nbsp;	↷</td>
-                    <td>&nbsp;	□p</td>
-                    <td>&nbsp;	Esp</td>
-                    <td>&nbsp;	─</td>
-                    <td>&nbsp;	MT</td>
-                    <td>&nbsp;	□</td>
-                    <td>&nbsp;	//</td>
-                    <td>&nbsp;	↷</td>
-                    <td>&nbsp;	□p</td>
-                    <td>&nbsp;	Esp</td>
-                    <td>&nbsp;	─</td>
-                    <td>&nbsp;	MT</td>
-                </tr>
-                <tr>
-                    <th>Caroline</th>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <th>Stéphane</th>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <th>Patrice</th>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <th>Jonathan</th>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <th>Caliopi</th>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <th>Libre</th>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-            </tbody>
 
-            <tfoot>
-                <tr><th rowspan="7" colspan="22">15h00 - 15h20 : Placement du matériel
-                        <br />
-                        15h20 - 15h50 : Echauffement général
-                        <br />
-                        15h50 - 16h25 : 1er rotation
-                        <br />
-                        16h25 - 17h00 : 2ème rotation
-                        <br />
-                        17h00 – 17h35 : 3ème rotation
-                        <br />
-                        17h35 – 17h45 : étirement 
-                        <br />
-                        17h45 - 18h00 : Rangement du matériel
-
-                    </th></tr>
-
-            </tfoot>-->
-            <!-- </table>-->
+           
+            </table>
 
 
 
 
-            <pre>
+           <!-- <pre>
 			
     SAISON 
      2014-2015	03/09	10/09	17/09	24/09	01/10	08/10	15/10
@@ -351,13 +164,13 @@ include_once 'inc/head.php';
             29/04	06/05	13/05	20/05	27/05	03/06	-
 
    
-            </pre>
+            </pre> -->
 
         </article>
         <article>
             <h2><a id="vend"></a>Vendredi</h2>
-           <!-- <table id="rotation">
-                <caption>Les dates des vendredis</caption>
+           <table class="jour">
+                <!--<caption>Les dates des vendredis</caption> -->
                 <thead>
                     <tr>
                         <th rowspan="5">SAISON<br />2014-2015</th>
@@ -411,8 +224,8 @@ include_once 'inc/head.php';
                         <th colspan="3"></th>
                     </tr>
                 </thead>
-            </table>-->
-            <pre>
+            </table>
+            <!-- <pre>
 			
     SAISON 
      2014-2015	05/09	12/09	19/09	26/09	03/10	10/10	17/10	24/10	
@@ -421,7 +234,7 @@ include_once 'inc/head.php';
             20/03	27/03	24/04	08/05	22/05	29/05	05/06	12/06	
             19/06	-	-	-	-	-	-	-	
 
-            </pre>
+            </pre> -->
         </article>
         <article>
             <h2><a id="dim"></a>Calendrier des dimanches</h2>
@@ -430,15 +243,15 @@ include_once 'inc/head.php';
         <article> -->
             <?php
             require_once 'ia/tgj_upload.php';
-                while ($ledoc = mysqli_fetch_assoc($recup_dim)) {
-                    /*echo "<a href='" . $ledoc['lurl'] . "' target='_blank'>" . $ledoc['letitre'] . "</a> (";
-                    // BONUS affichage de l'extension récupérée de l'url
-                    echo strrchr($ledoc['lurl'], '.');
-                    echo ")<br />";*/
-                    
-                    echo "<iframe  width='100%' height='900px' src='http://localhost/tempogym/x/".$ledoc['lurl']."'><p class='dim'><a href='http://localhost/tempogym/x/".$ledoc['lurl']."' title='Calendrier des dimanches'><img class='dim' src='http://localhost/tempogym/x/".$ledoc['lurl']."' alt='Calendrier des dimanches'/></a></p></iframe><br />";
-                }
-                ?>
+            while ($ledoc = mysqli_fetch_assoc($recup_dim)) {
+                /* echo "<a href='" . $ledoc['lurl'] . "' target='_blank'>" . $ledoc['letitre'] . "</a> (";
+                  // BONUS affichage de l'extension récupérée de l'url
+                  echo strrchr($ledoc['lurl'], '.');
+                  echo ")<br />"; */
+
+                echo "<iframe  width='100%' height='900px' src='http://localhost/tempogym/no/" . $ledoc['lurl'] . "'><p class='dim'><a href='http://localhost/tempogym/no/" . $ledoc['lurl'] . "' title='Calendrier des dimanches'><img class='dim' src='http://localhost/tempogym/no/" . $ledoc['lurl'] . "' alt='Calendrier des dimanches'/></a></p></iframe><br />";
+            }
+            ?>
         </article>
     </section>
 
