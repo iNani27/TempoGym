@@ -167,9 +167,9 @@ pre{
     display:none;  
 }
 #audio{
-    
-    
-    
+
+
+
 }
 /* FORMULAIRE et bouton de connexion */
 p.adminmedia{
@@ -274,6 +274,13 @@ footer p{
         background-color:white;
         border: 1px solid white;
     }
+    /* Debug ss menu display desktop */
+    header nav ul li ul{
+        min-width:200px;
+        width: 19.5%;
+        display:none;
+    }
+    /**/
 }
 
 /* Version desktop */
@@ -305,23 +312,25 @@ footer p{
         background-color:white;
         border:1px solid white;
     }	
-	header nav ul li ul{
-		display:block;
-                z-index:0;
-	}
-        header nav ul li ul li{
-            
-    overflow: hidden;
-   transition: all .5s;
-   max-height:0;
-        }
-        
-        header nav ul li:hover ul li {
-            
-            max-height: 2em;
-            
-        }
-        
+
+    /* Debug ss menu display desktop */
+    header nav ul li ul{
+        display:block;
+        z-index:0;
+        position: static;
+        border:0 none;
+        width: 100%;
+    }
+    header nav ul li ul li{
+        overflow: hidden;
+        transition: all .5s;
+        max-height:0;
+    }
+    header nav ul li:hover ul li {
+        max-height: 2em;
+    }
+    /**/
+
     section {
         width:80%;
         float:left;
