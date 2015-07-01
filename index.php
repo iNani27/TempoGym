@@ -1,5 +1,4 @@
 <?php
-session_start();
 require_once 'connect.php';
 /* afficher le contenu de la DB page accueil: 2 articles */
 $sql_p1_a1="SELECT * FROM `tgj_articles` WHERE `tgi_pages_id`=1 AND `id`=1";
@@ -14,9 +13,7 @@ include_once 'inc/head.php';
 ?>
 <section id="main">		
     <h1>Bienvenue sur le site de Tempogym de Jette</h1>
-
     <section id="news">
-
         <article>
             <h2><?= $recup_p1_a1['letitre']?></h2>
             <p>
@@ -30,12 +27,7 @@ include_once 'inc/head.php';
             </p>
         </article>
     </section>
-
-
-
-
     <?php
-    include_once 'inc/agenda.php';
     include_once 'inc/nav_qklk.php';
     include_once 'inc/footer.php';
     ?>
