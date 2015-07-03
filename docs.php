@@ -61,18 +61,19 @@ include_once 'inc/head.php';
         <article>
             <h2>Documents à télécharger</h2>
             <ul>
-                <li><a href="docs/reinscription.pdf" alt="">Avis parent - Réinscription</a></li>
-                <li><a href="docs/infos_cours_alain.pdf" alt="">Infos cours Alain.docx</a></li>  
-            </ul>
-            <?php
+               <!--<li><a href="docs/reinscription.pdf" alt="">Avis parent - Réinscription</a></li>
+                <li><a href="docs/infos_cours_alain.pdf" alt="">Infos cours Alain</a></li>  -->
+				 <?php
             require_once 'ia/tgj_upload.php';
             while ($lesdocs = mysqli_fetch_assoc($recup_docs)) {
-                echo "<li><a href='" . $lesdocs['lurl'] . "' target='_blank'>" . $lesdocs['letitre'] . "</a> (";
+                echo "<li><a href='http://stagiaires.cf2m.be/web2015/isabelle/tempogym/no/" . $lesdocs['lurl'] . "' target='_blank'>" . $lesdocs['letitre'] . "</a> (";
                 // BONUS affichage de l'extension récupérée de l'url
                 echo strrchr($lesdocs['lurl'], '.');
                 echo ")</li><br />";
             }
             ?>
+            </ul>
+           
         </article>
 
         <article>

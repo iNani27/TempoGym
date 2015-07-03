@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 include_once 'inc/head.php';
 ?>
 <section id="main">		
@@ -107,43 +107,43 @@ include_once 'inc/head.php';
                     <tr>
 
                         <td colspan="3">22/10</td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
                     </tr>
                     <tr>
 
                         <td colspan="3">17/12</td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
                     </tr>
                     <tr>
 
                         <td colspan="3">25/02</td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
                     </tr>
                     <tr>
 
                         <td colspan="3">29/04</td>
-                        <td colspan="3"></td>
+                        <td colspan="3">jj/mm</td>
 
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
                     </tr>
                 </thead>
 
@@ -185,43 +185,43 @@ include_once 'inc/head.php';
                     <tr>
 
                         <td colspan="3">22/10</td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
                     </tr>
                     <tr>
 
                         <td colspan="3">17/12</td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
                     </tr>
                     <tr>
 
                         <td colspan="3">25/02</td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
                     </tr>
                     <tr>
 
                         <td colspan="3">29/04</td>
-                        <td colspan="3"></td>
+                        <td colspan="3">jj/mm</td>
 
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
-                        <td colspan="3"></td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
+                        <td colspan="3">jj/mm</td>
                     </tr>
                 </thead>
             </table>
@@ -249,7 +249,7 @@ include_once 'inc/head.php';
                   echo strrchr($ledoc['lurl'], '.');
                   echo ")<br />"; */
 
-                echo "<iframe  width='100%' height='900px' src='http://localhost/tempogym/no/" . $ledoc['lurl'] . "'><p class='dim'><a href='http://localhost/tempogym/no/" . $ledoc['lurl'] . "' title='Calendrier des dimanches'><img class='dim' src='http://localhost/tempogym/no/" . $ledoc['lurl'] . "' alt='Calendrier des dimanches'/></a></p></iframe><br />";
+                echo "<iframe  width='100%' height='900px' src='http://stagiaires.cf2m.be/web2015/isabelle/tempogym/no/" . $ledoc['lurl'] . "'><p class='dim'><a href='http://stagiaires.cf2m.be/web2015/isabelle/tempogym/no/" . $ledoc['lurl'] . "' title='Calendrier des dimanches'><img class='dim' src='http://stagiaires.cf2m.be/web2015/isabelle/tempogym/no/" . $ledoc['lurl'] . "' alt='Calendrier des dimanches'/></a></p></iframe><br />";
             }
             ?>
         </article>
