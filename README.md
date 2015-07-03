@@ -2,6 +2,7 @@
 TempoGym
 
 Retour après présentation du site client
+
 Le site présenté était complet et a ravi le client.
 Le design a été primé pour sa luminosité et sa facilité d’utilisation pour le public ciblé (>12 ans). 
 De nouvelles fonctionnalités ont été demandées.
