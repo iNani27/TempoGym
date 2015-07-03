@@ -22,6 +22,7 @@ Afin de pouvoir modifier tous les contenus (même les tables), il faudrait :
 8.	Implémenter un éditeur de textes et
 9.	Optimiser, voir refaire les tables et leurs liaisons dans la base de données et
 10.	Créer les requêtes SQL pour les gérer de l’Interface Admin.
+
 Pistes de Dev: 
 http://ckeditor.com/demo
 + http://ckeditor.com/addon/tabletools
@@ -65,6 +66,7 @@ Afin de pouvoir visualiser les images sur la page galerie :
     o	créer les miniatures des images, 
     o	resize et 
     o	crop
+    
 Piste slider : http://codepen.io/dudleystorey/pen/ehKpi 
 
 Rajouter dans la page contact un formulaire : 
