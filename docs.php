@@ -66,7 +66,7 @@ include_once 'inc/head.php';
 				 <?php
             require_once 'ia/tgj_upload.php';
             while ($lesdocs = mysqli_fetch_assoc($recup_docs)) {
-                echo "<li><a href='http://stagiaires.cf2m.be/web2015/isabelle/tempogym/no/" . $lesdocs['lurl'] . "' target='_blank'>" . $lesdocs['letitre'] . "</a> (";
+                echo "<li><a href='".CHEMIN."/no/" . $lesdocs['lurl'] . "' target='_blank'>" . $lesdocs['letitre'] . "</a> (";
                 // BONUS affichage de l'extension récupérée de l'url
                 echo strrchr($lesdocs['lurl'], '.');
                 echo ")</li><br />";
