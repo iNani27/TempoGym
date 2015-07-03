@@ -27,8 +27,8 @@ Pistes de Dev:
 http://ckeditor.com/demo
 + http://ckeditor.com/addon/tabletools
 Voir aussi : 
-http://www.tinymce.com/wiki.php/Installation
-http://www.tinymce.com/wiki.php/Plugin3x:table
++ http://www.tinymce.com/wiki.php/Installation
++ http://www.tinymce.com/wiki.php/Plugin3x:table
 
 Afin de pouvoir supprimer les PDF de la page document, il faudrait : 
 
@@ -59,13 +59,13 @@ Afin de pouvoir visualiser les images sur la page galerie :
 23.	Trouver un nouveau slider
 24.	Ajouter en IA la possibilité de gérer les images : 
 
-    o	ajouter, 
-    o	supprimer, 
-    o	catégoriser, 
-    o	créer des catégories
-    o	créer les miniatures des images, 
-    o	resize et 
-    o	crop
+    +	ajouter, 
+    +	supprimer, 
+    +	catégoriser, 
+    +	créer des catégories
+    +	créer les miniatures des images, 
+    +	resize et 
+    +	crop
     
 Piste slider : http://codepen.io/dudleystorey/pen/ehKpi 
 
