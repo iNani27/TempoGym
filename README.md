@@ -26,6 +26,7 @@ Afin de pouvoir modifier tous les contenus (même les tables), il faudrait :
 Pistes de Dev: 
 http://ckeditor.com/demo
 + http://ckeditor.com/addon/tabletools
+
 Voir aussi : 
 + http://www.tinymce.com/wiki.php/Installation
 + http://www.tinymce.com/wiki.php/Plugin3x:table
