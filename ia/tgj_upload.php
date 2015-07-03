@@ -54,6 +54,6 @@ if (isset($_FILES['lefichier']) && isset($_POST['letitre'])) {
 }
 
 // on va afficher les liens vers les docs sauvés dans la db
-$recup_dim = mysqli_query($connect, "SELECT * FROM tgj_docs WHERE tgi_pages_id=5;") or die(mysqli_error($connect));
+$recup_dim = mysqli_query($connect, "SELECT * FROM tgj_docs WHERE tgi_pages_id=5 ORDER BY id DESC LIMIT 1;") or die(mysqli_error($connect));
 
-$recup_docs = mysqli_query($connect, "SELECT * FROM tgj_docs WHERE tgi_pages_id=7;") or die(mysqli_error($connect));
+$recup_docs = mysqli_query($connect, "SELECT * FROM tgj_docs WHERE tgi_pages_id=7 ORDER BY id DESC;") or die(mysqli_error($connect));
