@@ -5,4 +5,5 @@
   $password = ""; 
   $db = "tempogym";
 
-
+// chemin racine
+define("CHEMIN","http://localhost/tempogym/");

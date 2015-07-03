@@ -249,7 +249,7 @@ include_once 'inc/head.php';
                   echo strrchr($ledoc['lurl'], '.');
                   echo ")<br />"; */
 
-                echo "<iframe  width='100%' height='900px' src='http://stagiaires.cf2m.be/web2015/isabelle/tempogym/no/" . $ledoc['lurl'] . "'><p class='dim'><a href='http://stagiaires.cf2m.be/web2015/isabelle/tempogym/no/" . $ledoc['lurl'] . "' title='Calendrier des dimanches'><img class='dim' src='http://stagiaires.cf2m.be/web2015/isabelle/tempogym/no/" . $ledoc['lurl'] . "' alt='Calendrier des dimanches'/></a></p></iframe><br />";
+                echo "<iframe  width='100%' height='900px' src='".CHEMIN."/no/" . $ledoc['lurl'] . "'><p class='dim'><a href='".CHEMIN."/no/" . $ledoc['lurl'] . "' title='Calendrier des dimanches'><img class='dim' src='".CHEMIN."/no/" . $ledoc['lurl'] . "' alt='Calendrier des dimanches'/></a></p></iframe><br />";
             }
             ?>
         </article>
