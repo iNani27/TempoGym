@@ -3,10 +3,10 @@ TempoGym
 
 Retour après présentation du site client
 Le site présenté était complet et a ravi le client.
-Le design a été primé pour sa luminosité et sa facilité d’utilisation pour le public ciblé (>12 ans).
+Le design a été primé pour sa luminosité et sa facilité d’utilisation pour le public ciblé (>12 ans). 
 De nouvelles fonctionnalités ont été demandées.
 
-Liste (priorisée) des fonctionnalités additionnelles pour le site client 
+Liste (priorisée) des fonctionnalités additionnelles pour le site client.  
 Ces tâches pourront être réalisées en fonction du temps qui sera réparti sur les 5 semaines après la rentrée.
 
 1.	Rédiger mail client pour fournir l’URL du site en ligne et rappeler la date buttoir du 23/08/2015 pour envoyer les contenus finaux.
@@ -27,8 +27,6 @@ http://ckeditor.com/demo
 Voir aussi : 
 http://www.tinymce.com/wiki.php/Installation
 http://www.tinymce.com/wiki.php/Plugin3x:table
-
-
 
 Afin de pouvoir supprimer les PDF de la page document, il faudrait
 11.	Implémenter le script, les requêtes SQL et le code PHP dans l’Interface Admin (IA).
