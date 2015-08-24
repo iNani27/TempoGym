@@ -364,7 +364,7 @@ footer p{
         width:100%;
     }
     footer img.sponsor{
-        max-height:50px;
+        max-height:70px;
     }
     #dates img.dim, #docs img.word{
         width:85%;
@@ -396,7 +396,7 @@ footer p{
         display:none;
     }
     footer img.sponsor{
-        max-height:20px;
+        max-height:50px;
     }
     #calendar{
         display:none;
