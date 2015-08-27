@@ -28,6 +28,12 @@ include_once 'inc/nav.php';
                         Votre navigateur n'est pas compatible
                     </audio>
                 </div>
+                
+            <video width="320" height="240" controls>
+  <source src="video/baby.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+        
                 <div class="fotorama" data-autoplay="true">
                     <img src="img/slider1.jpg">
                     <img src="img/slider2.jpg">
@@ -37,6 +43,7 @@ include_once 'inc/nav.php';
                 </div>
             </center>
         </article>
+        
         <?php
         include_once 'inc/footer.php';
         ?>
